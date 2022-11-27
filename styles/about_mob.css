@@ -1,0 +1,84 @@
+/* DEVELOPER: Abdelmalek Benaissa, IS 117-001, Fall 2022 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    width: 80%;
+    min-width: 340px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#wrapper {
+    width:60%;
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke, #475569);
+    border: 1px solid black;
+    float: left;
+}
+
+#chef img
+{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+
+footer {
+    position: fixed;
+    background-color: #1E293B;
+    color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 370px) {
+    h1 {
+        font-size: 1.375em;
+    }
+    main p {
+        font-size: .875em;
+    }
+    #chef
+    {
+        float:none;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    h1 {
+        font-size: 1.625em;
+    }
+    main p {
+        font-size: 1em;
+    }
+    #chef
+    {
+        width: 40%;
+        float:right;
+    }
+}
+
+@media screen and (min-width: 797px) {
+    h1 {
+        font-size: 2.25em;
+    }
+    main p {
+        font-size: 1.25em;
+    }
+    #chef
+    {
+        width:40%;
+        float: right;
+    }
+}
